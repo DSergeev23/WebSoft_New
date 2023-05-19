@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="161.551" tests="3" failures="3">
+  <testsuite name="Root Suite" timestamp="2023-05-19T12:49:41" tests="3" file="cypress\e2e\WebSoft\Learning_testing_management\Learning_management\Portal_refusal_event.cy.js" time="161.545" failures="3">
+    <testcase name="Подача индивидуальной заявки на мероприятие" time="0.000" classname="Подача индивидуальной заявки на мероприятие">
+      <failure message="Timed out retrying after 40000ms: expected &apos;&lt;div#WT_0x612617833F9A28BB.wt-lp-wheader-workarea.wt-lp-base-font-size.wt-lp-workarea-width&gt;&apos; to contain &apos;Календарь учебных мероприятий&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 40000ms: expected '<div#WT_0x612617833F9A28BB.wt-lp-wheader-workarea.wt-lp-base-font-size.wt-lp-workarea-width>' to contain 'Календарь учебных мероприятий'
+    at MainCommands.findHeader (webpack:///./cypress/e2e/Page_object/All_pages_commands.cy.js:15:7)
+    at LearningManagementCommands.openEventsCalendar (webpack:///./cypress/e2e/Page_object/Page_learning_management.cy.js:31:21)
+    at UsefulFunctions.openEventList (webpack:///./cypress/e2e/Page_object/All_pages_useful_functions.cy.js:14:31)
+    at Context.eval (webpack:///./cypress/e2e/WebSoft/Learning_testing_management/Learning_management/Portal_refusal_event.cy.js:14:20)]]></failure>
+    </testcase>
+    <testcase name="Отображение заявки" time="0.000" classname="Отображение заявки">
+      <failure message="Timed out retrying after 40000ms: Expected to find content: &apos;eLearning Elements 2022&apos; within the element: &lt;div#WT_0x6048CCDB387D3E71.wt-lp-witemlist-workarea.wt-lp-witemlist-type-row.wt-lp-base-font-size.wt-lp-workarea-width.skin1-itemlist-1-in-row&gt; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 40000ms: Expected to find content: 'eLearning Elements 2022' within the element: <div#WT_0x6048CCDB387D3E71.wt-lp-witemlist-workarea.wt-lp-witemlist-type-row.wt-lp-base-font-size.wt-lp-workarea-width.skin1-itemlist-1-in-row> but never did.
+    at LearningManagementCommands.chooseApplication (webpack:///./cypress/e2e/Page_object/Page_learning_management.cy.js:96:9)
+    at Context.eval (webpack:///./cypress/e2e/WebSoft/Learning_testing_management/Learning_management/Portal_refusal_event.cy.js:26:30)]]></failure>
+    </testcase>
+    <testcase name="Отказ от участия в мероприятии" time="0.000" classname="Отказ от участия в мероприятии">
+      <failure message="Timed out retrying after 40000ms: Expected to find content: &apos;Отказаться от участия&apos; within the element: &lt;div#WT_0x60EC212C11D262CD.wt-lp-macro-block.wt-lp-base-font-size.no-min-height-zones&gt; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 40000ms: Expected to find content: 'Отказаться от участия' within the element: <div#WT_0x60EC212C11D262CD.wt-lp-macro-block.wt-lp-base-font-size.no-min-height-zones> but never did.
+    at MainCommands.clickButtonHeader (webpack:///./cypress/e2e/Page_object/All_pages_commands.cy.js:84:7)
+    at Context.eval (webpack:///./cypress/e2e/WebSoft/Learning_testing_management/Learning_management/Portal_refusal_event.cy.js:36:17)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

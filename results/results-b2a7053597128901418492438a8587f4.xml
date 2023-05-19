@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="29.352" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-05-18T10:08:47" tests="2" file="cypress\e2e\WebSoft\Learning_testing_management\Learning_management\Portal_submitting_invidual_application.cy.js" time="29.347" failures="0">
+    <testcase name="Подача индивидуальной заявки на мероприятие" time="20.433" classname="Подача индивидуальной заявки на мероприятие">
+    </testcase>
+    <testcase name="Отображение заявки" time="8.852" classname="Отображение заявки">
+    </testcase>
+  </testsuite>
+</testsuites>

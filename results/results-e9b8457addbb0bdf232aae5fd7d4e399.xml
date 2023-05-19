@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="56.557" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2023-05-16T10:15:24" tests="1" file="cypress\e2e\WebSoft\Learning_testing_management\Testing_management\test_test.cy.js" time="56.547" failures="1">
+    <testcase name="Запуск теста" time="0.000" classname="Запуск теста">
+      <failure message="Timed out retrying after 40000ms: Expected to find content: &apos;Продолжить&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 40000ms: Expected to find content: 'Продолжить' but never did.
+    at Context.eval (webpack:///./cypress/e2e/WebSoft/Learning_testing_management/Testing_management/test_test.cy.js:21:9)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

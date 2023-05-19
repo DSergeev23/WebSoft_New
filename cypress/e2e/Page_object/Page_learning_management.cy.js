@@ -198,7 +198,12 @@ export class LearningManagementCommands {
         playersCommads.findClickObjectInCoursePlayer('iframe#cp_course_container','iframe#content-frame','#page-wrap > main > div > div.next-lesson.brand--linkColorHover > a > div.next-lesson__name.brand--ui')
         cy.wait(1000)
         playersCommads.findClickObjectInCoursePlayer('iframe#cp_course_container','iframe#content-frame','#page-wrap > main > div > div.page__wrapper.page__wrapper--white > div.page__content > section > div:nth-child(1) > div > div > div > div > section > span')
-        cy.wait(2000)
+        cy
+        .reload()
+        cy
+        .get('[class="v-btn v-btn--icon v-btn--round theme--light v-size--default"]').eq(1).click()
+        cy
+        .contains('Выйти').click()
         return this;
     }
 

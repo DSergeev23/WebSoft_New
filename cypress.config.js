@@ -10,7 +10,7 @@ module.exports = defineConfig({
     failOnStatusCode: false,
     //specPattern: './**/*.cy.js', 
     //spec: './**/*.cy.js',
-    baseUrl: "https://dev.websoft.ru:16598/",
+    baseUrl: "https://qa.websoft.ru:18443/",
   
     setupNodeEvents(on, config) {
       // implement node event listeners here

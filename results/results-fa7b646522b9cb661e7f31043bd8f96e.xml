@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="98.625" tests="3" failures="1">
+  <testsuite name="Root Suite" timestamp="2023-05-16T14:43:19" tests="3" file="cypress\e2e\WebSoft\Learning_testing_management\Learning_management\Portal_course_completion.cy.js" time="98.611" failures="1">
+    <testcase name="Открытие и прохождение курса" time="38.984" classname="Открытие и прохождение курса">
+    </testcase>
+    <testcase name="Проверка статуса завершен" time="0.000" classname="Проверка статуса завершен">
+      <failure message="Timed out retrying after 40000ms: expected &apos;&lt;div#WT_0x637206A63E64741F.wt-lp-witemlist-workarea.wt-lp-witemlist-type-row.wt-lp-base-font-size.wt-lp-workarea-width&gt;&apos; to contain &apos;Завершен&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 40000ms: expected '<div#WT_0x637206A63E64741F.wt-lp-witemlist-workarea.wt-lp-witemlist-type-row.wt-lp-base-font-size.wt-lp-workarea-width>' to contain 'Завершен'
+    at MainCommands.findHeader (webpack:///./cypress/e2e/Page_object/All_pages_commands.cy.js:15:7)
+    at Context.eval (webpack:///./cypress/e2e/WebSoft/Learning_testing_management/Learning_management/Portal_course_completion.cy.js:22:17)]]></failure>
+    </testcase>
+    <testcase name="Проверка баллов" time="11.147" classname="Проверка баллов">
+    </testcase>
+  </testsuite>
+</testsuites>

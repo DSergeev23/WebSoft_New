@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="333.844" tests="47" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-05-19T12:35:54" tests="47" file="cypress\e2e\WebSoft\Portal_services_open.cy.js" time="333.821" failures="0">
+    <testcase name="Проверка сервиса Адресная книга" time="13.058" classname="Проверка сервиса Адресная книга">
+    </testcase>
+    <testcase name="Проверка сервиса Базы знаний" time="6.408" classname="Проверка сервиса Базы знаний">
+    </testcase>
+    <testcase name="Проверка сервиса Вакансии" time="4.907" classname="Проверка сервиса Вакансии">
+    </testcase>
+    <testcase name="Проверка сервиса Видеопроекты" time="5.682" classname="Проверка сервиса Видеопроекты">
+    </testcase>
+    <testcase name="Проверка сервиса Вопросы эксперту" time="5.787" classname="Проверка сервиса Вопросы эксперту">
+    </testcase>
+    <testcase name="Проверка сервиса График отпусков" time="6.649" classname="Проверка сервиса График отпусков">
+    </testcase>
+    <testcase name="Проверка сервиса Дни рождения" time="6.162" classname="Проверка сервиса Дни рождения">
+    </testcase>
+    <testcase name="Проверка сервиса Живая лента" time="8.146" classname="Проверка сервиса Живая лента">
+    </testcase>
+    <testcase name="Проверка сервиса Кадровые комитеты" time="4.814" classname="Проверка сервиса Кадровые комитеты">
+    </testcase>
+    <testcase name="Проверка сервиса Кафетерий льгот" time="8.769" classname="Проверка сервиса Кафетерий льгот">
+    </testcase>
+    <testcase name="Проверка сервиса Команда" time="7.053" classname="Проверка сервиса Команда">
+    </testcase>
+    <testcase name="Проверка сервиса Компетенции" time="6.194" classname="Проверка сервиса Компетенции">
+    </testcase>
+    <testcase name="Проверка сервиса КЭДО" time="6.993" classname="Проверка сервиса КЭДО">
+    </testcase>
+    <testcase name="Проверка сервиса Магазин призов" time="5.520" classname="Проверка сервиса Магазин призов">
+    </testcase>
+    <testcase name="Проверка сервиса Мероприятия" time="4.693" classname="Проверка сервиса Мероприятия">
+    </testcase>
+    <testcase name="Проверка сервиса Модульные программы" time="4.909" classname="Проверка сервиса Модульные программы">
+    </testcase>
+    <testcase name="Проверка сервиса Новости" time="4.695" classname="Проверка сервиса Новости">
+    </testcase>
+    <testcase name="Проверка сервиса Новые сотрудники" time="4.152" classname="Проверка сервиса Новые сотрудники">
+    </testcase>
+    <testcase name="Проверка сервиса Опросы" time="3.936" classname="Проверка сервиса Опросы">
+    </testcase>
+    <testcase name="Проверка сервиса Преподаватели" time="5.359" classname="Проверка сервиса Преподаватели">
+    </testcase>
+    <testcase name="Проверка сервиса Проекты" time="4.861" classname="Проверка сервиса Проекты">
+    </testcase>
+    <testcase name="Проверка сервиса Пространство знаний" time="6.889" classname="Проверка сервиса Пространство знаний">
+    </testcase>
+    <testcase name="Проверка сервиса Процедуры оценки" time="5.484" classname="Проверка сервиса Процедуры оценки">
+    </testcase>
+    <testcase name="Проверка сервиса Рекомендованное обучение" time="4.410" classname="Проверка сервиса Рекомендованное обучение">
+    </testcase>
+    <testcase name="Проверка сервиса Соревнования" time="6.303" classname="Проверка сервиса Соревнования">
+    </testcase>
+    <testcase name="Проверка сервиса Тесты" time="4.239" classname="Проверка сервиса Тесты">
+    </testcase>
+    <testcase name="Проверка сервиса Учебные организации" time="5.355" classname="Проверка сервиса Учебные организации">
+    </testcase>
+    <testcase name="Проверка сервиса Учебные программы" time="4.836" classname="Проверка сервиса Учебные программы">
+    </testcase>
+    <testcase name="Проверка сервиса Форумы" time="5.262" classname="Проверка сервиса Форумы">
+    </testcase>
+    <testcase name="Проверка сервиса Эксперты" time="4.477" classname="Проверка сервиса Эксперты">
+    </testcase>
+    <testcase name="Проверка сервиса Электронная библиотека" time="5.047" classname="Проверка сервиса Электронная библиотека">
+    </testcase>
+    <testcase name="Проверка сервиса Электронные курсы" time="5.055" classname="Проверка сервиса Электронные курсы">
+    </testcase>
+    <testcase name="Проверка сервиса Прокторинг" time="9.636" classname="Проверка сервиса Прокторинг">
+    </testcase>
+    <testcase name="Проверка сервиса Конструктор курсов" time="10.949" classname="Проверка сервиса Конструктор курсов">
+    </testcase>
+    <testcase name="Проверка сервиса Редактор страниц" time="9.860" classname="Проверка сервиса Редактор страниц">
+    </testcase>
+    <testcase name="Проверка сервиса Центр аналитики" time="7.654" classname="Проверка сервиса Центр аналитики">
+    </testcase>
+    <testcase name="Проверка сервиса Чат" time="39.894" classname="Проверка сервиса Чат">
+    </testcase>
+    <testcase name="Проверка сервиса Мое обучение" time="7.757" classname="Проверка сервиса Мое обучение">
+    </testcase>
+    <testcase name="Проверка сервиса Мои документы" time="5.190" classname="Проверка сервиса Мои документы">
+    </testcase>
+    <testcase name="Проверка сервиса Мои знания" time="6.248" classname="Проверка сервиса Мои знания">
+    </testcase>
+    <testcase name="Проверка сервиса Мои компетенции" time="6.045" classname="Проверка сервиса Мои компетенции">
+    </testcase>
+    <testcase name="Проверка сервиса Мои льготы" time="6.460" classname="Проверка сервиса Мои льготы">
+    </testcase>
+    <testcase name="Проверка сервиса Мои файлы" time="7.207" classname="Проверка сервиса Мои файлы">
+    </testcase>
+    <testcase name="Проверка сервиса Мои цели" time="7.214" classname="Проверка сервиса Мои цели">
+    </testcase>
+    <testcase name="Проверка сервиса Мой график" time="8.260" classname="Проверка сервиса Мой график">
+    </testcase>
+    <testcase name="Проверка сервиса Моя адаптация" time="6.955" classname="Проверка сервиса Моя адаптация">
+    </testcase>
+    <testcase name="Проверка сервиса Моя карьера" time="5.390" classname="Проверка сервиса Моя карьера">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="87.257" tests="3" failures="1">
+  <testsuite name="Root Suite" timestamp="2023-05-16T07:09:35" tests="3" file="cypress\e2e\WebSoft\Learning_testing_management\Testing_management\Portal_open_test_check_button_start.cy.js" time="87.241" failures="1">
+    <testcase name="Проверка кнопки начать в карточке теста" time="20.603" classname="Проверка кнопки начать в карточке теста">
+    </testcase>
+    <testcase name="Запуск теста" time="0.000" classname="Запуск теста">
+      <failure message="Timed out retrying after 40000ms: expected &apos;https://dev.websoft.ru:16598/qtiplayer3/presentation.htm?aicc_sid=7233674144754587594&amp;aicc_url=%2Fhandler%2Ehtml&amp;width=1018&amp;height=682&amp;fit=1&amp;lang=ru&amp;send=q&amp;display=item&amp;rubric=ass&amp;map=1&amp;navmap=1&amp;navstrict=0&amp;navprog=1&amp;timing=1&amp;nextbind=1&amp;reslock=0&amp;break=0&amp;displayresscore=1&amp;feedback=1&amp;failed=1&amp;displaymax=1&amp;path=/webtutor/00044/1/#loaded&apos; to include &apos;/tests/&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 40000ms: expected 'https://dev.websoft.ru:16598/qtiplayer3/presentation.htm?aicc_sid=7233674144754587594&aicc_url=%2Fhandler%2Ehtml&width=1018&height=682&fit=1&lang=ru&send=q&display=item&rubric=ass&map=1&navmap=1&navstrict=0&navprog=1&timing=1&nextbind=1&reslock=0&break=0&displayresscore=1&feedback=1&failed=1&displaymax=1&path=/webtutor/00044/1/#loaded' to include '/tests/'
+    at TestingManagementCommands.openTestPlayer (webpack:///./cypress/e2e/Page_object/Page_testing_management.cy.js:35:9)
+    at Context.eval (webpack:///./cypress/e2e/WebSoft/Learning_testing_management/Testing_management/Portal_open_test_check_button_start.cy.js:22:30)]]></failure>
+    </testcase>
+    <testcase name="Проверка факта назначения" time="11.558" classname="Проверка факта назначения">
+    </testcase>
+  </testsuite>
+</testsuites>

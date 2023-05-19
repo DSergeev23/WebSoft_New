@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="78.243" tests="3" failures="1">
+  <testsuite name="Root Suite" timestamp="2023-05-19T12:16:20" tests="3" file="cypress\e2e\WebSoft\Learning_testing_management\Learning_management\Portal_event_participation_confirmation.cy.js" time="78.239" failures="1">
+    <testcase name="Подача индивидуальной заявки на мероприятие" time="21.061" classname="Подача индивидуальной заявки на мероприятие">
+    </testcase>
+    <testcase name="Отображение заявки" time="10.891" classname="Отображение заявки">
+    </testcase>
+    <testcase name="Подтверждение участия в мероприятии" time="0.000" classname="Подтверждение участия в мероприятии">
+      <failure message="Timed out retrying after 40000ms: Expected to find element: `[id^=WT_0x612617833F9A28BB]`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 40000ms: Expected to find element: `[id^=WT_0x612617833F9A28BB]`, but never found it.
+    at MainCommands.findHeader (webpack:///./cypress/e2e/Page_object/All_pages_commands.cy.js:15:7)
+    at LearningManagementCommands.openEventsCalendar (webpack:///./cypress/e2e/Page_object/Page_learning_management.cy.js:31:21)
+    at UsefulFunctions.openEventList (webpack:///./cypress/e2e/Page_object/All_pages_useful_functions.cy.js:14:31)
+    at Context.eval (webpack:///./cypress/e2e/WebSoft/Learning_testing_management/Learning_management/Portal_event_participation_confirmation.cy.js:34:20)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -31,12 +31,16 @@ export class MainCommands {
 
       return this;
     }
-    openServicesWidget(id, item) {
+    openServicesWidget(id, item, url) {
       cy
       .get('[id^=' + id + ']')
       .contains(item)
       .siblings('[wt-role="link"]')
       .click()
+      cy
+      .url()
+      .should('include', url)
+
 
       return this;
     }

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="63.176" tests="9" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-05-19T12:34:38" tests="9" file="cypress\e2e\WebSoft\Portal_personal_area_open_all_chapters.cy.js" time="63.166" failures="0">
+    <testcase name="Проверка страницы работа" time="15.083" classname="Проверка страницы работа">
+    </testcase>
+    <testcase name="Проверка страницы адаптация" time="5.751" classname="Проверка страницы адаптация">
+    </testcase>
+    <testcase name="Проверка страницы карьера" time="7.400" classname="Проверка страницы карьера">
+    </testcase>
+    <testcase name="Проверка страницы знания" time="6.000" classname="Проверка страницы знания">
+    </testcase>
+    <testcase name="Проверка страницы Обучение" time="6.090" classname="Проверка страницы Обучение">
+    </testcase>
+    <testcase name="Проверка страницы Компетенции" time="5.311" classname="Проверка страницы Компетенции">
+    </testcase>
+    <testcase name="Проверка страницы цели" time="5.458" classname="Проверка страницы цели">
+    </testcase>
+    <testcase name="Проверка страницы документы" time="5.267" classname="Проверка страницы документы">
+    </testcase>
+    <testcase name="Проверка страницы льготы" time="6.556" classname="Проверка страницы льготы">
+    </testcase>
+  </testsuite>
+</testsuites>

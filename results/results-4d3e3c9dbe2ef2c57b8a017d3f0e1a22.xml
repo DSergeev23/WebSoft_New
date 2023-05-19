@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="131.162" tests="3" failures="2">
+  <testsuite name="Root Suite" timestamp="2023-05-18T09:15:35" tests="3" file="cypress\e2e\WebSoft\Learning_testing_management\Learning_management\Portal_course_completion.cy.js" time="131.149" failures="2">
+    <testcase name="Открытие и прохождение курса" time="0.000" classname="Открытие и прохождение курса">
+      <failure message="Timed out retrying after 40000ms: Expected to find element: `iframe#content-frame`, but never found it. Queried from:
+
+              &gt; cy.get(iframe#cp_course_container).its(0.contentDocument)" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 40000ms: Expected to find element: `iframe#content-frame`, but never found it. Queried from:
+
+              > cy.get(iframe#cp_course_container).its(0.contentDocument)
+    at PlayersCommands.findClickObjectInCoursePlayer (webpack:///./cypress/e2e/Page_object/Page_all_players.cy.js:7:9)
+    at LearningManagementCommands.completeCourse (webpack:///./cypress/e2e/Page_object/Page_learning_management.cy.js:193:23)
+    at Context.eval (webpack:///./cypress/e2e/WebSoft/Learning_testing_management/Learning_management/Portal_course_completion.cy.js:16:31)]]></failure>
+    </testcase>
+    <testcase name="Проверка статуса завершен" time="0.000" classname="Проверка статуса завершен">
+      <failure message="Timed out retrying after 40000ms: expected &apos;&lt;div#WT_0x637206A63E64741F.wt-lp-witemlist-workarea.wt-lp-witemlist-type-row.wt-lp-base-font-size.wt-lp-workarea-width&gt;&apos; to contain &apos;Завершен&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 40000ms: expected '<div#WT_0x637206A63E64741F.wt-lp-witemlist-workarea.wt-lp-witemlist-type-row.wt-lp-base-font-size.wt-lp-workarea-width>' to contain 'Завершен'
+    at MainCommands.findHeader (webpack:///./cypress/e2e/Page_object/All_pages_commands.cy.js:15:7)
+    at Context.eval (webpack:///./cypress/e2e/WebSoft/Learning_testing_management/Learning_management/Portal_course_completion.cy.js:22:17)]]></failure>
+    </testcase>
+    <testcase name="Проверка баллов" time="14.258" classname="Проверка баллов">
+    </testcase>
+  </testsuite>
+</testsuites>

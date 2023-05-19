@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="41.134" tests="5" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-05-19T12:33:47" tests="5" file="cypress\e2e\WebSoft\Portal_main_modules.cy.js" time="41.129" failures="0">
+    <testcase name="Проверка модуля Сообщество" time="14.938" classname="Проверка модуля Сообщество">
+    </testcase>
+    <testcase name="Проверка модуля Сервисы" time="6.388" classname="Проверка модуля Сервисы">
+    </testcase>
+    <testcase name="Проверка модуля Знания" time="6.275" classname="Проверка модуля Знания">
+    </testcase>
+    <testcase name="Проверка модуля Обучение" time="6.942" classname="Проверка модуля Обучение">
+    </testcase>
+    <testcase name="Проверка модуля Команда" time="6.286" classname="Проверка модуля Команда">
+    </testcase>
+  </testsuite>
+</testsuites>

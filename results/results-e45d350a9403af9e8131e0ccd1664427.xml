@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="75.352" tests="2" failures="1">
+  <testsuite name="Root Suite" timestamp="2023-05-19T12:55:05" tests="2" file="cypress\e2e\WebSoft\Learning_testing_management\Learning_management\Portal_submitting_invidual_application.cy.js" time="75.337" failures="1">
+    <testcase name="Подача индивидуальной заявки на мероприятие" time="24.911" classname="Подача индивидуальной заявки на мероприятие">
+    </testcase>
+    <testcase name="Отображение заявки" time="0.000" classname="Отображение заявки">
+      <failure message="Timed out retrying after 40000ms: Expected to find content: &apos;Навыки работы с заемщиками&apos; within the element: &lt;div#WT_0x6048CCDB387D3E71.wt-lp-witemlist-workarea.wt-lp-witemlist-type-row.wt-lp-base-font-size.wt-lp-workarea-width.skin1-itemlist-1-in-row&gt; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 40000ms: Expected to find content: 'Навыки работы с заемщиками' within the element: <div#WT_0x6048CCDB387D3E71.wt-lp-witemlist-workarea.wt-lp-witemlist-type-row.wt-lp-base-font-size.wt-lp-workarea-width.skin1-itemlist-1-in-row> but never did.
+    at LearningManagementCommands.chooseApplication (webpack:///./cypress/e2e/Page_object/Page_learning_management.cy.js:96:9)
+    at Context.eval (webpack:///./cypress/e2e/WebSoft/Learning_testing_management/Learning_management/Portal_submitting_invidual_application.cy.js:25:30)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

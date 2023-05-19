@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="153.234" tests="3" failures="3">
+  <testsuite name="Root Suite" timestamp="2023-05-19T12:42:20" tests="3" file="cypress\e2e\WebSoft\Learning_testing_management\Learning_management\1Portal_apply_approve_course.cy.js" time="153.225" failures="3">
+    <testcase name="Подача индивидуальной заявки на курс" time="0.000" classname="Подача индивидуальной заявки на курс">
+      <failure message="Timed out retrying after 40000ms: Expected to find content: &apos;Заявка на активацию электронного курса&apos; within the element: &lt;div#WT_0x61E57E003B4A30CC.wt-lp-witemlist-workarea.wt-lp-witemlist-type-page.wt-lp-base-font-size.wt-lp-workarea-width.skin1-itemlist-4-in-row-1em.skin1-itemlist-rounded-items.skin1-itemlist-single-row&gt; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 40000ms: Expected to find content: 'Заявка на активацию электронного курса' within the element: <div#WT_0x61E57E003B4A30CC.wt-lp-witemlist-workarea.wt-lp-witemlist-type-page.wt-lp-base-font-size.wt-lp-workarea-width.skin1-itemlist-4-in-row-1em.skin1-itemlist-rounded-items.skin1-itemlist-single-row> but never did.
+    at LearningManagementCommands.chooseTypeOfApplication (webpack:///./cypress/e2e/Page_object/Page_learning_management.cy.js:115:9)
+    at Context.eval (webpack:///./cypress/e2e/WebSoft/Learning_testing_management/Learning_management/1Portal_apply_approve_course.cy.js:14:31)]]></failure>
+    </testcase>
+    <testcase name="Отображение заявки" time="0.000" classname="Отображение заявки">
+      <failure message="Timed out retrying after 40000ms: Expected to find content: &apos;Инициатива и ответственность&apos; within the element: &lt;div#WT_0x6048CCDB387D3E71.wt-lp-witemlist-workarea.wt-lp-witemlist-type-row.wt-lp-base-font-size.wt-lp-workarea-width.skin1-itemlist-1-in-row&gt; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 40000ms: Expected to find content: 'Инициатива и ответственность' within the element: <div#WT_0x6048CCDB387D3E71.wt-lp-witemlist-workarea.wt-lp-witemlist-type-row.wt-lp-base-font-size.wt-lp-workarea-width.skin1-itemlist-1-in-row> but never did.
+    at LearningManagementCommands.chooseApplication (webpack:///./cypress/e2e/Page_object/Page_learning_management.cy.js:96:9)
+    at Context.eval (webpack:///./cypress/e2e/WebSoft/Learning_testing_management/Learning_management/1Portal_apply_approve_course.cy.js:27:30)]]></failure>
+    </testcase>
+    <testcase name="Проверка курса у сотрудника" time="0.000" classname="Проверка курса у сотрудника">
+      <failure message="Timed out retrying after 40000ms: Expected to find content: &apos;Инициатива и ответственность&apos; within the element: &lt;div#WT_0x60B79AB3287C4E50.wt-lp-witemlist-workarea.wt-lp-witemlist-type-page.wt-lp-base-font-size.wt-lp-workarea-width.spisok1.skin1-itemlist-1-in-row.skin1-itemlist-simple-h-items&gt; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 40000ms: Expected to find content: 'Инициатива и ответственность' within the element: <div#WT_0x60B79AB3287C4E50.wt-lp-witemlist-workarea.wt-lp-witemlist-type-page.wt-lp-base-font-size.wt-lp-workarea-width.spisok1.skin1-itemlist-1-in-row.skin1-itemlist-simple-h-items> but never did.
+    at MainCommands.checkObjectCardInWidget (webpack:///./cypress/e2e/Page_object/All_pages_commands.cy.js:93:7)
+    at Context.eval (webpack:///./cypress/e2e/WebSoft/Learning_testing_management/Learning_management/1Portal_apply_approve_course.cy.js:37:17)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

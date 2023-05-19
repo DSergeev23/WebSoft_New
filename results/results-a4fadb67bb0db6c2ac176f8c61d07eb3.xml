@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="46.165" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-05-16T07:27:30" tests="3" file="cypress\e2e\WebSoft\Learning_testing_management\Learning_management\Portal_event_participation_confirmation.cy.js" time="46.144" failures="0">
+    <testcase name="Подача индивидуальной заявки на мероприятие" time="21.929" classname="Подача индивидуальной заявки на мероприятие">
+    </testcase>
+    <testcase name="Отображение заявки" time="11.666" classname="Отображение заявки">
+    </testcase>
+    <testcase name="Подтверждение участия в мероприятии" time="12.360" classname="Подтверждение участия в мероприятии">
+    </testcase>
+  </testsuite>
+</testsuites>
